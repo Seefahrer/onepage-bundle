@@ -13,12 +13,12 @@
     }
   ],
   "require": {
-    "php": "^7.2 || ^8.0",
-    "contao/core-bundle": "^4.4"
+    "php": "^7 || ^8",
+    "contao/core-bundle": "^4.11"
   },
   "autoload": {
     "psr-4": {
-      "Wr\\OnepageBundle\\": "src/"
+      "Seefahrer\\OnepageBundle\\": "src/"
     },
     "classmap": [
       "src/Resources/contao/"
